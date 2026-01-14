@@ -1,6 +1,6 @@
 # 🤖 AutoZone AI Voice Agent
 
-![Project Banner](ADD_YOUR_BANNER_IMAGE_HERE_OR_DELETE_THIS_LINE)
+![Project Banner](./1.png)
 
 **A Full-Stack Real-Time AI Voice Assistant** capable of looking up vehicle information, checking availability, and booking appointments using natural voice commands. Built with **React**, **Python (Flask)**, **LiveKit**, and **Google Gemini Multimodal API**.
 
