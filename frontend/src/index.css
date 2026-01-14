@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #2C3E50;
+  
+  /* Enhanced sea-green gradient with subtle pattern */
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(72, 201, 176, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(93, 173, 226, 0.08) 0%, transparent 50%),
+    linear-gradient(135deg, #E8F8F5 0%, #D1F2EB 50%, #E8F8F5 100%);
+  background-attachment: fixed;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #48C9B0;
+  text-decoration: inherit;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #5DADE2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #2C3E50;
+  letter-spacing: -0.02em;
+}
+
+button {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 0.75em 1.5em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  color: #2C3E50;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(72, 201, 176, 0.1);
+}
+button:hover {
+  background: rgba(255, 255, 255, 0.4);
+  border-color: rgba(72, 201, 176, 0.6);
+  box-shadow: 0 6px 20px rgba(72, 201, 176, 0.2);
+  transform: translateY(-2px);
+}
+button:active {
+  transform: translateY(0);
+}
+button:focus,
+button:focus-visible {
+  outline: 2px solid rgba(72, 201, 176, 0.5);
+  outline-offset: 2px;
+}
